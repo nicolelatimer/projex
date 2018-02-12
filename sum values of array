@@ -1,0 +1,14 @@
+//sum values of an array
+
+public class Main {
+  public static void main(String[] args) {
+    
+    int numArray[] = {10, 9, 8967};
+    int sum = 0;
+    
+// for every index in my array, add one to the initally empty sum
+    
+    for (int i : numArray)
+      sum+=i;
+    System.out.println("Sum: " + sum);
+}}
