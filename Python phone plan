@@ -1,0 +1,14 @@
+//phone plan cost in Python
+
+minutes = int(input("Enter a number of minutes: "))
+
+if minutes <= 300:
+  cost = 29.95
+else:
+  leftMins = minutes-300
+  cost = 29.95+(leftMins*.45)
+  
+tax=cost*.125
+cost=cost+tax
+cost = round(cost,2)
+print ("The cost is:", cost)
