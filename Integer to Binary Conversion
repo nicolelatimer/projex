@@ -1,4 +1,4 @@
-//convert an interger to binary
+//Java - convert an interger to binary
 
 import java.util.Scanner;
 public class Main {
