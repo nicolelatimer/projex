@@ -1,0 +1,17 @@
+//creating an int and a string array, sorting them, and then printing them
+
+import java.util.Arrays;
+public class Main {
+  public static void main(String[] args) {
+    
+    int[] yearArray = {1994, 1970, 1996};
+    String[] nameArray = {"Nicole", "Maddie", "Austin"};
+    
+    System.out.println("Original years: " + Arrays.toString(yearArray));
+    Arrays.sort(yearArray);
+    System.out.println("Sorted years: " + Arrays.toString(yearArray));
+    
+    System.out.println("\nOriginal names: " + Arrays.toString(nameArray));
+    Arrays.sort(nameArray);
+    System.out.println("Sorted names: " + Arrays.toString(nameArray));
+ }}
