@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Main {
+  public static void main(String[] args) {
+
+String[] myarray = new String[] {"Nicole", "Austin", "Maddie"};
+ArrayList<String> myarraylist = new ArrayList<String>(Arrays.asList(myarray));
+
+System.out.println(myarraylist);
+
+ }
+}
